@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("file:///C:/Users/HOME/Desktop/Projeto3/img/104.jpg") no-repeat;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.titulo {
+    margin: 7vh;
+    transition: 3s;
+    color: rgb(241, 102, 200);   
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.container {
+    margin: 8vh;
+}
+h1 {
+    text-align: left;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+
+}
+h2 {
+    text-align: left;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+
+}
+h3 { 
+    text-shadow: 1px 1px 1px #000;
+    text-align: left;
+    color: #fff;
+   
+
+}
+button {
+    padding: 10px 30px;
+    margin: 20px;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid #000;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: ease-in-out .50s;
+}
+button:hover {
+    background-color: rgba(221, 106, 250, 0.445);
+}
+p {
+    color: #fff;
+    text-align: center;
+    position: inherit;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+}
+  .nomelink{
+    color: #EE82EE;
+  }
